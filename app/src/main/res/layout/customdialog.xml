@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#F8C471" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dig_imageView1"
+            android:src="@android:mipmap/sym_def_app_icon"
+            android:layout_weight="0.13" />
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/dig_textView1"
+            android:layout_weight="0.13" />
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/dig_button1" />
+    </LinearLayout>
+</LinearLayout>
